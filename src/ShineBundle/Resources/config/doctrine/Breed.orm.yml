@@ -1,0 +1,16 @@
+ShineBundle\Entity\Breed:
+  type: entity
+  table: breed
+  id:
+    id:
+      type: integer
+      generator: { strategy: AUTO }
+  fields:
+    title:
+      type: string
+      length: 255
+      unique: true
+  oneToMany:
+    dogs:
+      targetEntity: Dog
+      mappedBy: breed

@@ -1,0 +1,3 @@
+shine_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: ShineBundle:Default:index }

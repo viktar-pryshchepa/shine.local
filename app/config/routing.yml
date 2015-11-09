@@ -1,3 +1,7 @@
+shine:
+    resource: "@ShineBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
