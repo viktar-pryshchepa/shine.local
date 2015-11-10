@@ -1,3 +1,6 @@
 shine_homepage:
     path:     /hello/{name}
     defaults: { _controller: ShineBundle:Default:index }
+shine_upload:
+    path: /upload
+    defaults: { _controller: ShineBundle:Default:upload }

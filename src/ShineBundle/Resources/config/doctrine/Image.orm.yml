@@ -1,0 +1,15 @@
+ShineBundle\Entity\Image:
+  type: entity
+  table: images
+  id:
+    id:
+      type: integer
+      generator: { strategy: AUTO }
+  fields:
+    filename:
+      type: string
+      length: 255
+    path:
+      type: string
+      length: 255
+      nullable: true
